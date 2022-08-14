@@ -1,5 +1,6 @@
 
 
+@media screen and (min-width: 600px) {
 .grid {
     display: grid;
     width: 100vw;
@@ -109,40 +110,45 @@
     /* border: 1px solid red;*/
 } /* [Секция футера 4] */
 
+}
+
 @media screen and (max-width: 599px) {
     .grid {
-        display: none;
+        height: 100%;
     }
 
     .main {
-        display: none;
+        height: 100%;
+        background-color: #fff8e3;
     }
 
     .header {
         height: 20vh;
+        background-color: #e0e0e0;
     }
 
     .section {
-        display: none;
-    }
-
-    .article12 {
-        display: none;
+        height: 100%;
+        background-color: #fff8e3;
     }
 
     .article1, .article2, .article3 {
         height: 20vh;
+        background-color: #feeab9;
     }
 
     .article {
         height: 20vh;
+        background-color: #ddeccb;
     }
 
     .footer {
-        display: none;
+        height: 20vh;
+        background-color: #e0e0e0;
     }
 
     .section1, .section2, .section3, .section4 {
-        height: 20vh;
+        height: 10vh;
+        background-color: #fafafa;
     }
 }
