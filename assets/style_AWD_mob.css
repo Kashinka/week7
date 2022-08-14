@@ -115,6 +115,7 @@
 @media screen and (max-width: 599px) {
     .grid {
         height: 100%;
+        text-align: center;
         background-color: #e0e0e0;
     }
 
