@@ -1,0 +1,108 @@
+.grid {
+    display: grid;
+    width: 100vw;
+    text-align: center;
+    /* border: 1px solid green; */
+} /* Весь grid */
+
+.header {
+    background-color: #e0e0e0;
+    /* border: 1px solid red;*/
+} /* [Шапка страницы] */
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    grid-template-rows: 1fr;
+    height: 50vh;
+    background-color: #fff8e3;
+    /* border: 1px solid red;*/
+} /* Основное содержимое страницы */
+
+.section {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(1000px, 200px)); */
+    gap: 15px;
+    height: 95%;
+    justify-items: center;
+    background-color: #fff8e3;
+    /* border: 1px solid red;*/
+} /* [Основная часть, Ещё 1,2,3] */
+
+/*
+.aside {
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 50%;
+    border: 1px solid red;
+} */ /* aside */
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70%;
+    gap: 20px;
+    align-content: center;
+    height: 15vh;
+    background-color: #e0e0e0;
+    /* border: 1px solid red;*/
+} /* [Футер] */
+
+.article {
+    background-color: #ddeccb;
+} /* [Боковая область] */
+
+.article1, .article2, .article3 {
+    background-color: #feeab9;
+} /* Фон для Ещё 1,2,3 */
+
+.article12 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    gap: 15px;
+    width: 95%;
+    text-align: center;
+    /* border: 1px solid green;*/
+} /* Ещё 1,2 в одну строку */
+
+.article1 {
+    display: grid;
+    align-content: center;
+    /* border: 1px solid red;*/
+} /* [Ещё 1] */
+
+.article2 {
+    display: grid;
+    align-content: center;
+    /* border: 1px solid red;*/
+} /* [Ещё 2] */
+
+.article3 {
+    display: grid;
+    width: 95%;
+    align-content: center;
+    /* border: 1px solid red;*/
+} /* [Ещё 3] */
+
+.section1, .section2, .section3, .section4 {
+    display: grid;
+    align-content: center;
+    background-color: #fafafa;
+} /* Всё секции футера в ряд */
+
+.section1 {
+    /* border: 1px solid red;*/
+} /* [Секция футера 1] */
+
+.section2 {
+    /* border: 1px solid red;*/
+} /* [Секция футера 2] */
+
+.section3 {
+    /* border: 1px solid red;*/
+} /* [Секция футера 3] */
+
+.section4 {
+    /* border: 1px solid red;*/
+} /* [Секция футера 4] */
