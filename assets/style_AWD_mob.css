@@ -1,6 +1,38 @@
 @media screen and (max-width: 599px) {
     .grid {
-        width: 50vw;
+        display: none;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .header {
+        height: 20vh;
+    }
+
+    .section {
+        display: none;
+    }
+
+    .article12 {
+        display: none;
+    }
+
+    .article1, .article2, .article3 {
+        height: 20vh;
+    }
+
+    .article {
+        height: 20vh;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .section1, .section2, .section3, .section4 {
+        height: 20vh;
     }
 }
 
