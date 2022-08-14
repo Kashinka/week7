@@ -1,40 +1,4 @@
-@media screen and (max-width: 599px) {
-    .grid {
-        display: none;
-    }
 
-    .main {
-        display: none;
-    }
-
-    .header {
-        height: 20vh;
-    }
-
-    .section {
-        display: none;
-    }
-
-    .article12 {
-        display: none;
-    }
-
-    .article1, .article2, .article3 {
-        height: 20vh;
-    }
-
-    .article {
-        height: 20vh;
-    }
-
-    .footer {
-        display: none;
-    }
-
-    .section1, .section2, .section3, .section4 {
-        height: 20vh;
-    }
-}
 
 .grid {
     display: grid;
@@ -144,3 +108,41 @@
 .section4 {
     /* border: 1px solid red;*/
 } /* [Секция футера 4] */
+
+@media screen and (max-width: 599px) {
+    .grid {
+        display: none;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .header {
+        height: 20vh;
+    }
+
+    .section {
+        display: none;
+    }
+
+    .article12 {
+        display: none;
+    }
+
+    .article1, .article2, .article3 {
+        height: 20vh;
+    }
+
+    .article {
+        height: 20vh;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .section1, .section2, .section3, .section4 {
+        height: 20vh;
+    }
+}
